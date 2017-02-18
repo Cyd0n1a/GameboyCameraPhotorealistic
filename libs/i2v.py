@@ -78,7 +78,7 @@ def get_i2v_tag_model():
                   'PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python ipython\n' +
                   'See here for info: ' +
                   'https://github.com/tensorflow/tensorflow/issues/582')
-
+# Processing & Metadata
     return {
         'graph_def': graph_def,
         'labels': tags,
